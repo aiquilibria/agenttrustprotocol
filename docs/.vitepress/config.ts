@@ -6,6 +6,7 @@ export default defineConfig({
   base: '/',
 
   head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['meta', { property: 'og:title', content: 'Agent Trust Protocol' }],
     ['meta', { property: 'og:description', content: 'An open protocol for verifiable AI agent task execution.' }],
     ['meta', { property: 'og:type', content: 'website' }],
