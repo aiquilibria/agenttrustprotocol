@@ -1,0 +1,20 @@
+# contAIned repo manifest — TypeScript ecosystem
+#
+# Commit this file to .contAIned_manifest.yaml in your repository root.
+# Only ecosystems and policy.qa.checks are permitted here; all policy settings
+# (network, secrets, bash rules, sigstore, etc.) are owned by the operator manifest.
+#
+# `contained init` resolves the typescript ecosystem against the operator manifest's
+# ecosystem_definitions (which maps it to the node toolchain), installs Node.js at
+# the pinned version, and adds registry.npmjs.org to the network allowlist.
+
+ecosystems:
+  typescript: "20"   # pin your project's Node.js major version here
+
+policy:
+  qa:
+    checks:
+      - name: build
+        command: [npm, run, docs:build]
+        when_changed: ["**/*.md", "**/*.ts", "package.json"]
+
