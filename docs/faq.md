@@ -32,17 +32,16 @@ evolves.
 
 ## Who maintains ATP?
 
-ATP is authored and maintained by the [AIquilibria](https://aiquilibria.com) team. The spec is
+ATP is authored and maintained by the [AIquilibria team](mailto:atp@aiquilibria.com). The spec is
 open for community contribution via GitHub Issues and PRs.
 
 ## How do I implement ATP?
 
-Start with the [specification](/spec/v0.1). A Python SDK (`atp-python`) is available that
-provides automatic hash computation, canonical JSON serialization, an Exchange REST client, and
-a JSON-RPC server for Challenge responses. See Section 14.2 of the spec.
+Start with the [specification](/spec/v0.1). Any compliant implementation must support the Proof
+structure (Section 3), the Exchange API (Section 5), and the Challenge-response protocol
+(Section 6). For questions, reach out at [atp@aiquilibria.com](mailto:atp@aiquilibria.com).
 
 ## Which agent frameworks does ATP support?
 
-ATP is framework-agnostic. The Python SDK includes adapters for A2A and LangChain (v0.1.0) with
-CrewAI planned for v0.2.0. Any framework can be made ATP-compliant by implementing the proof
+ATP is framework-agnostic. Any framework can be made ATP-compliant by implementing the proof
 generation, commit, and challenge-response requirements in Section 4.

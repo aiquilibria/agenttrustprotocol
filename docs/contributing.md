@@ -24,6 +24,10 @@ ATP is an open specification. Community feedback is welcome and encouraged.
 ATP follows semantic versioning. Breaking changes to normative requirements increment the minor
 version. Editorial changes do not increment the version.
 
+## Contact
+
+For questions or private feedback, email [atp@aiquilibria.com](mailto:atp@aiquilibria.com).
+
 ## Code of Conduct
 
 Be constructive and respectful. Disagreements about spec language are welcome; personal attacks

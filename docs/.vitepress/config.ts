@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'Agent Trust Protocol',
   description: 'An open protocol for verifiable AI agent task execution.',
   base: '/',
+  srcExclude: ['internal/**'],
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],

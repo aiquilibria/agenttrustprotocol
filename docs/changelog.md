@@ -15,4 +15,3 @@ Initial draft release of the Agent Trust Protocol specification.
 - Multi-dimensional trust model defined (Integrity, Quality, Compliance)
 - Dependency disclosure and AI-BOM reconstruction specified
 - Security considerations documented
-- Python SDK (atp-python v0.1.0) available
