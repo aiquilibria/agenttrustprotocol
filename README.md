@@ -6,7 +6,7 @@ enabling trust assessment, reputation scoring, and compliance verification witho
 sensitive task content.
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Spec](https://img.shields.io/badge/Spec-v0.1.0_draft-yellow.svg)](https://agenttrustprotocol.org/spec/v0.1)
+[![Spec](https://img.shields.io/badge/Spec-v0.2.0_draft-yellow.svg)](https://agenttrustprotocol.org/spec/v0.2)
 
 ## Documentation
 
