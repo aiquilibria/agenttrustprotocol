@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Read the Specification
-      link: /spec/v0.1
+      link: /spec/v0.2
     - theme: alt
       text: View on GitHub
       link: https://github.com/aiquilibria/agenttrustprotocol
@@ -42,6 +42,7 @@ layer that all of them currently lack.
 
 ## Status
 
-ATP v0.1.0 is a **draft specification**. It is published for community review and
-is subject to change. Feedback is welcomed via
+ATP v0.2.0 is a **draft specification**. It is published for community review and
+is subject to change. An official [Python SDK](https://github.com/aiquilibria/atp-python)
+implements the current version. Feedback is welcomed via
 [GitHub Issues](https://github.com/aiquilibria/agenttrustprotocol/issues).
